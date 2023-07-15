@@ -47,5 +47,6 @@ mongoose.connect(process.env.MONGO_URL,{
 .then(function (){
     app.listen(PORT,function(){
         console.log(`Server Port: ${PORT}`);
-    }).catch((error)=>)
+    })
+
 });
